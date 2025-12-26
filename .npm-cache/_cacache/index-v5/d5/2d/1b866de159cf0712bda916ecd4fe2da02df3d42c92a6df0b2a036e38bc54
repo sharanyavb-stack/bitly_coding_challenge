@@ -1,2 +1,0 @@
-
-0253bf43267c006c8fb8e9f9a29c12f0a45a515f	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz","integrity":null,"time":1766586829683,"size":"0","metadata":{"time":1766586829683,"url":"http://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Wed, 24 Dec 2025 14:33:49 GMT","location":"https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

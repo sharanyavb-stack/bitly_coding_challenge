@@ -1,2 +1,0 @@
-
-d162617b68a540b0ca3fd5619a2dba634bd03e36	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz","integrity":null,"time":1766586830069,"size":"0","metadata":{"time":1766586830069,"url":"http://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Wed, 24 Dec 2025 14:33:50 GMT","location":"https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

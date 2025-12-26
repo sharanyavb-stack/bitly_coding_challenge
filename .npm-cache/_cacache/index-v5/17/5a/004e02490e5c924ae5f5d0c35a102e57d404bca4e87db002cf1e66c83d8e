@@ -1,2 +1,0 @@
-
-fd0f8069cbb7630d47ea6658ed1fd494b6049a55	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz","integrity":null,"time":1766586828912,"size":"0","metadata":{"time":1766586828911,"url":"http://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Wed, 24 Dec 2025 14:33:48 GMT","location":"https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,2 +1,0 @@
-
-7385dbc97c2141378eb18f03f3da7b4a65ca2cbc	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@babel/compat-data/-/compat-data-7.28.5.tgz","integrity":null,"time":1766586829560,"size":"0","metadata":{"time":1766586829560,"url":"http://registry.npmjs.org/@babel/compat-data/-/compat-data-7.28.5.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Wed, 24 Dec 2025 14:33:49 GMT","location":"https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.28.5.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

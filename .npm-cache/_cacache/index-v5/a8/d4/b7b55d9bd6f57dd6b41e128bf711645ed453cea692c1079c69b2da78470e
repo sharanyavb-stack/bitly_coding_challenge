@@ -1,2 +1,0 @@
-
-8561980d08f0cd54f041a1a560bdfe4448f33ecd	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@types/graceful-fs/-/graceful-fs-4.1.9.tgz","integrity":null,"time":1766586828557,"size":"0","metadata":{"time":1766586828557,"url":"http://registry.npmjs.org/@types/graceful-fs/-/graceful-fs-4.1.9.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Wed, 24 Dec 2025 14:33:48 GMT","location":"https://registry.npmjs.org/@types/graceful-fs/-/graceful-fs-4.1.9.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

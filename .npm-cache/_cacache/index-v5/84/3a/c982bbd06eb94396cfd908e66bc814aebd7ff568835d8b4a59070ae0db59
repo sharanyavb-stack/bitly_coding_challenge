@@ -1,2 +1,0 @@
-
-b589f3fcb49b10d7ae04315648563ee568000075	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/resolve/-/resolve-1.22.11.tgz","integrity":null,"time":1766586828394,"size":"0","metadata":{"time":1766586828394,"url":"http://registry.npmjs.org/resolve/-/resolve-1.22.11.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Wed, 24 Dec 2025 14:33:48 GMT","location":"https://registry.npmjs.org/resolve/-/resolve-1.22.11.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}
