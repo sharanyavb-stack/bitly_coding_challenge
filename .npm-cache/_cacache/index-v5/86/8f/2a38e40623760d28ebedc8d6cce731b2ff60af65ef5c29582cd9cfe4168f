@@ -1,0 +1,2 @@
+
+7992e790f08851e1841bd428eddb0c6ecf2256a8	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/char-regex/-/char-regex-1.0.2.tgz","integrity":null,"time":1766586828062,"size":"0","metadata":{"time":1766586828062,"url":"http://registry.npmjs.org/char-regex/-/char-regex-1.0.2.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Wed, 24 Dec 2025 14:33:48 GMT","location":"https://registry.npmjs.org/char-regex/-/char-regex-1.0.2.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

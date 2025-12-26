@@ -1,0 +1,22 @@
+## AI Usage
+
+- AI tools: 
+  - Cursor Copilot for quick scaffolding and small suggestions.
+- Prompts (examples): 
+  - “minimal Node CLI for --year=YYYY”
+  - "initail test files"
+  - “fixtures/tests for empty/malformed CSV”.
+- AI-assisted: 
+  - initial test skeletons
+  - README outline
+  - simple `--year` parsing
+  - small optimizations (e.g., zero-count inclusion) for edge cases.
+- Manual:
+  - Main logic and approach (mapping, bitlink matching, counting, sorting error handling, final tests).
+  - CLI validation and exit codes (usage errors vs runtime errors).
+  - Module structure and refactors (`lib/`, `utils/`).
+  - Case-sensitive bitlink hashes; scheme/trailing-slash normalization only.
+  - Dockerfile and README updates for other run options.
+- Challenges & adjustments: 
+  - AI suggested considered lowercasing bitlinks; kept them case‑sensitive. 
+  - Standardized modules to kebab‑case.

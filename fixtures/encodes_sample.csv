@@ -1,0 +1,6 @@
+long_url,domain,hash
+https://example.com/page,bit.ly,abc123
+https://example.org/,bit.ly,def456
+,bit.ly,xyz567
+
+

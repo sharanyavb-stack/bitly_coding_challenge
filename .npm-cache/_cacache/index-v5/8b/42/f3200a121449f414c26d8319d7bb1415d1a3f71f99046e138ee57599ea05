@@ -1,0 +1,2 @@
+
+d23e28d36ba7ad766d21ff126e3a76167f9ac167	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@jest/schemas/-/schemas-29.6.3.tgz","integrity":null,"time":1766586829544,"size":"0","metadata":{"time":1766586829544,"url":"http://registry.npmjs.org/@jest/schemas/-/schemas-29.6.3.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Wed, 24 Dec 2025 14:33:49 GMT","location":"https://registry.npmjs.org/@jest/schemas/-/schemas-29.6.3.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

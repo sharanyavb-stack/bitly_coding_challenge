@@ -1,0 +1,2 @@
+
+d8c88365991fea8a44ed346a66ec325862620ebd	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/ms/-/ms-2.1.3.tgz","integrity":null,"time":1766586829200,"size":"0","metadata":{"time":1766586829199,"url":"http://registry.npmjs.org/ms/-/ms-2.1.3.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Wed, 24 Dec 2025 14:33:49 GMT","location":"https://registry.npmjs.org/ms/-/ms-2.1.3.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+bfa288a3c485b81d809306c49de16a48bc0d10ac	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/once/-/once-1.4.0.tgz","integrity":null,"time":1766586829026,"size":"0","metadata":{"time":1766586829026,"url":"http://registry.npmjs.org/once/-/once-1.4.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Wed, 24 Dec 2025 14:33:49 GMT","location":"https://registry.npmjs.org/once/-/once-1.4.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

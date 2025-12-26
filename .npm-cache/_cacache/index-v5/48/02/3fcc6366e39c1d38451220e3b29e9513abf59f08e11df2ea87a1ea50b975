@@ -1,0 +1,2 @@
+
+a9ca30d29b63a8ffb3f53720d80f7ca85821c173	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/get-caller-file/-/get-caller-file-2.0.5.tgz","integrity":null,"time":1766586827957,"size":"0","metadata":{"time":1766586827957,"url":"http://registry.npmjs.org/get-caller-file/-/get-caller-file-2.0.5.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Wed, 24 Dec 2025 14:33:47 GMT","location":"https://registry.npmjs.org/get-caller-file/-/get-caller-file-2.0.5.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}
