@@ -4,7 +4,7 @@ const { normalizeBitlink } = require('../utils/normalize-bitlink');
 function readEncodesFromCsv(filePath) {
 	const text = fs.readFileSync(filePath, 'utf8').trim();
 	const lines = text.split(/\r?\n/);
-	if (lines.length <= 1) return { bitlinkToUrl: new Map(), longUrls: [] };
+	if (lines.length <= 1) return new Map();
 
 	const header = lines[0].split(',');
 	const idxLong = header.findIndex((h) => h.trim().toLowerCase() === 'long_url');
@@ -16,7 +16,6 @@ function readEncodesFromCsv(filePath) {
 	}
 
 	const bitlinkToUrl = new Map();
-	const urls = [];
 
 	for (let i = 1; i < lines.length; i++) {
 		const parts = lines[i].split(',');
@@ -30,9 +29,8 @@ function readEncodesFromCsv(filePath) {
 		const key = normalizeBitlink(`${domain}/${hash}`);
 		if (!key) continue;
 		bitlinkToUrl.set(key, longUrl);
-		urls.push(longUrl);
 	}
-	return { bitlinkToUrl, longUrls: Array.from(new Set(urls)) };
+	return bitlinkToUrl;
 }
 
 module.exports = { readEncodesFromCsv };

@@ -4,17 +4,19 @@ const { readEncodesFromCsv } = require('../src/lib/read-encodes-from-csv');
 describe('readEncodesFromCsv', () => {
 	test('builds bitlink->url map and unique url list from sample CSV', () => {
 		const p = path.resolve(__dirname, '../fixtures/encodes_sample.csv');
-		const { bitlinkToUrl, longUrls } = readEncodesFromCsv(p);
+		const bitlinkToUrl = readEncodesFromCsv(p);
 		expect(bitlinkToUrl.get('bit.ly/abc123')).toBe('https://example.com/page');
 		expect(bitlinkToUrl.get('bit.ly/def456')).toBe('https://example.org/');
+		const longUrls = Array.from(new Set(bitlinkToUrl.values()));
 		expect(longUrls.sort()).toEqual(['https://example.com/page', 'https://example.org/'].sort());
 	});
 
 	test('returns empty map/list for empty CSV', () => {
 		const p = path.resolve(__dirname, '../fixtures/encodes_empty.csv');
-		const { bitlinkToUrl, longUrls } = readEncodesFromCsv(p);
+		const bitlinkToUrl = readEncodesFromCsv(p);
 		expect(bitlinkToUrl instanceof Map).toBe(true);
 		expect(bitlinkToUrl.size).toBe(0);
+		const longUrls = Array.from(new Set(bitlinkToUrl.values()));
 		expect(longUrls).toEqual([]);
 	});
 
@@ -25,12 +27,11 @@ describe('readEncodesFromCsv', () => {
 
 	test('skips malformed rows (fewer than 3 columns)', () => {
 		const p = path.resolve(__dirname, '../fixtures/encodes_malformed_rows.csv');
-		const { bitlinkToUrl, longUrls } = readEncodesFromCsv(p);
+		const bitlinkToUrl = readEncodesFromCsv(p);
 		// Only the valid row should be present; rows missing columns or with empty hash are skipped
 		expect(bitlinkToUrl.size).toBe(1);
 		expect(bitlinkToUrl.get('bit.ly/valid1')).toBe('https://valid.example/');
+		const longUrls = Array.from(new Set(bitlinkToUrl.values()));
 		expect(longUrls).toEqual(['https://valid.example/']);
 	});
 });
-
-

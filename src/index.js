@@ -32,7 +32,7 @@ function main() {
 	}
 
 	try {
-		const { bitlinkToUrl } = readEncodesFromCsv(encodesCsvPath);
+		const bitlinkToUrl = readEncodesFromCsv(encodesCsvPath);
 		const decodes = readDecodesArray(decodesJsonPath);
 		const result = countClicksForYear(decodes, bitlinkToUrl, year);
 		console.log(JSON.stringify(result, null, 2));

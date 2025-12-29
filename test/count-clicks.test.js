@@ -7,11 +7,12 @@ describe('countClicksForYear', () => {
 	test('counts clicks per long URL including zeros using fixtures', () => {
 		const encPath = path.resolve(__dirname, '../fixtures/encodes_sample.csv');
 		const decPath = path.resolve(__dirname, '../fixtures/decodes_sample.json');
-		const { bitlinkToUrl, longUrls } = readEncodesFromCsv(encPath);
+		const bitlinkToUrl = readEncodesFromCsv(encPath);
 		const events = readDecodesArray(decPath);
 		const result = countClicksForYear(events, bitlinkToUrl, 2021);
 		expect(result).toContainEqual({ 'https://example.com/page': 2 });
 		expect(result).toContainEqual({ 'https://example.org/': 0 });
+		const longUrls = Array.from(new Set(bitlinkToUrl.values()));
 		expect(result.length).toBe(longUrls.length);
 	});
 
@@ -38,5 +39,3 @@ describe('countClicksForYear', () => {
 		expect(result).toEqual([{ u1: 0 }]);
 	});
 });
-
-
