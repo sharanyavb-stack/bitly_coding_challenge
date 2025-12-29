@@ -1,5 +1,6 @@
 long_url,domain,hash
 ,
 https://valid.example/,bit.ly,valid1,
+https://youtube.example/,/,/,
 ,,
 
